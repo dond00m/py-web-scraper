@@ -1,12 +1,3 @@
-'''
-Example of web scraping using Python and BeautifulSoup. 
-
-Sraping ESPN College Football data 
-http://www.espn.com/college-sports/football/recruiting/databaseresults/_/sportid/24/class/2006/sort/school/starsfilter/GT/ratingfilter/GT/statuscommit/Commitments/statusuncommit/Uncommited
-
-The script will loop through a defined number of pages to extract footballer data. 
-'''
-
 from asyncio.log import logger
 from bs4 import BeautifulSoup
 import requests
