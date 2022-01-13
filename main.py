@@ -71,7 +71,6 @@ if __name__ == "__main__":
     Url to fetch
     '''
     baseurl = "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/" 
-    page = 1
 
     # scrape page
     htmlDocument = getHTMLDocument(baseurl)
